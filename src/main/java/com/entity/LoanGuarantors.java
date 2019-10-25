@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "LoanAutomatedPayments")
+@Table(name = "LoanGuarantors")
 public class LoanGuarantors {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
