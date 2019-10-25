@@ -32,16 +32,4 @@ public class Biodata {
     @JsonProperty("LastName")
     public String lastName;
 
-    public Biodata(String email, String password, String companyName, String country, String timeZone,
-                        String currency, String firstName, String lastName){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.password = password;
-        this.country = country;
-        this.companyName = companyName;
-        this.timeZone = timeZone;
-        this.currency = currency;
-    }
-
 }

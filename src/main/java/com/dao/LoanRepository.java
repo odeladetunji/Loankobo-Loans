@@ -1,8 +1,8 @@
 package com.dao;
 
-import com.entity.Loans;
+import com.entity.LoanTerms;
 import org.springframework.data.repository.CrudRepository;
 
-public interface LoanRepository extends CrudRepository<Loans, Long> {
+public interface LoanRepository extends CrudRepository<LoanTerms, Long> {
 
 }
